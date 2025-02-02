@@ -16,7 +16,7 @@ client = Together(api_key=TOGETHER_API_KEY)
 def get_company_news(company_name, num_days=10):
     """
     Fetch news articles using NewsAPI with filters:
-     - Date range: last num_days
+     - Date range: last num_day
      - Language: English only
      - And force results to be India-centric by including 'India' in the query.
     """
