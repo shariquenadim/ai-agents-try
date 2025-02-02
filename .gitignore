@@ -7,6 +7,8 @@ __pycache__/
 .venv/  # Virtual environment directory
 venv/   # Another common virtual environment directory name
 .env     # Environment variables file
+.env.*   # Environment variables file with an extension (e.g. .env.local)
+env
 *.swp   # Swap files (vim, etc.)
 *~      # Backup files (editor)
 .DS_Store # macOS desktop services store
